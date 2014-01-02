@@ -1,0 +1,14 @@
+{
+    "server": "irc.freenode.net",
+    "nickname": "robotirc",
+    "options": {
+        "userName": "robotirc",
+        "realName": "RobotIRC 0.1.0",
+        "port": 6667,
+        "autoRejoin": true,
+        "autoConnect": true,
+        "channels": [
+            "#robotirc"
+        ]
+    }
+}
