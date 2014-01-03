@@ -13,7 +13,7 @@ Configuration options are set in the `config.json` file :
 	    "nickname": "robotirc",
 	    "options": {
 	        "userName": "robotirc",
-	        "realName": "RobotIRC 0.1.0",
+	        "realName": "RobotIRC 0.1.1",
 	        "port": 6667,
 	        "autoRejoin": true,
 	        "autoConnect": true,
@@ -35,6 +35,8 @@ RobotIRC supports the following commands :
 - !resolve (Get A records (IPv4) and AAAA records (IPv6) for queried domain)
 - !reverse (Get reverse (PTR) records from IPv4 or IPv6 addresses)
 - !wikipedia (Query Wikipedia for an article summary)
+
+A list of available functions can be displayed by using the `!help` command.
 
 ## Examples
 
@@ -80,6 +82,9 @@ RobotIRC supports the following commands :
 
 	<fcambus> !reverse 2a02:6b8::feed:ff
 	<robotirc> dns.yandex.ru
+
+	<fcambus> !wikipedia node.js
+	<robotirc> Node.js is a software system designed for writing scalable Internet applications, notably web servers. Programs are written in JavaScript, using event-driven, asynchronous I/O to minimize overhead and maximize scalability. http://en.wikipedia.org/wiki/Node.js
 
 ## License
 
