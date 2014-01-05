@@ -2,7 +2,10 @@
     "name": "robotirc",
     "version": "0.1.1",
     "description": "Multifonction IRC bot written in Node",
-    "main": "index.js",
+    "preferGlobal": "true",
+    "bin": {
+        "robotirc": "lib/robotirc.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/fcambus/robotirc"
