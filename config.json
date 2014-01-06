@@ -3,7 +3,7 @@
     "nickname": "robotirc",
     "options": {
         "userName": "robotirc",
-        "realName": "RobotIRC 0.1.1",
+        "realName": "RobotIRC 0.1.2",
         "port": 6667,
         "autoRejoin": true,
         "autoConnect": true,

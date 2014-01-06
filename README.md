@@ -4,6 +4,12 @@
 
 Multifonction IRC bot written in Node.js.
 
+## Installation
+
+Install the program :
+
+	npm install -g robotirc
+
 ## Usage
 
 Start RobotIRC by invoking `robotirc`.
@@ -19,7 +25,7 @@ Example configuration with default options :
 	    "nickname": "robotirc",
 	    "options": {
 	        "userName": "robotirc",
-	        "realName": "RobotIRC 0.1.1",
+	        "realName": "RobotIRC 0.1.2",
 	        "port": 6667,
 	        "autoRejoin": true,
 	        "autoConnect": true,
