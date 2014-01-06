@@ -4,9 +4,15 @@
 
 Multifonction IRC bot written in Node.js.
 
+## Usage
+
+Start RobotIRC by invoking `robotirc`.
+
 ## Configuration
 
-Configuration options are set in the `config.json` file :
+Configuration options are set in the `~/.robotirc` file. If RobotIRC cannot find an user defined configuration file in the home directory, the bundled `config.json` if used instead.
+
+Example configuration with default options :
 
 	{
 	    "server": "irc.freenode.net",

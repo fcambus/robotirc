@@ -1,10 +1,19 @@
 #!/usr/bin/env node
 
+var fs = require('fs');
 var log = require('npmlog');
 var robotirc = require('../lib/robotirc');
 
 var config = require("../config.json");
 
-log.info("", "RobotIRC is running. Press Ctrl+C to stop.");
+log.info("", "RobotIRC is running. Press Ctrl+C to stop");
 
-robotirc(config);
+fs.readFile(process.env.HOME + '/.robotirc', function(error, data) {
+    if (!error) {
+        config = JSON.parse(data);
+    } else {
+        log.warn("", "Can't read ~/.robotirc file, using default configuration");
+    }
+
+    robotirc(config);
+});
