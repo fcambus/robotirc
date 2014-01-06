@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var log = require('npmlog');
+var robotirc = require('../lib/robotirc');
+
+var config = require("../config.json");
+
+log.info("", "RobotIRC is running. Press Ctrl+C to stop.");
+
+robotirc(config);

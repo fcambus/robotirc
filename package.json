@@ -2,9 +2,10 @@
     "name": "robotirc",
     "version": "0.1.1",
     "description": "Multifonction IRC bot written in Node",
+    "main": "index.js",
     "preferGlobal": "true",
     "bin": {
-        "robotirc": "lib/robotirc.js"
+        "robotirc": "./bin/robotirc"
     },
     "repository": {
         "type": "git",
@@ -33,6 +34,6 @@
         "irc": "~0.3.6",
         "request": "~2.30.0",
         "alexarank": "~0.1.0",
-        "npmlog": "0.0.6"
+        "npmlog": "~0.0.6"
     }
 }
