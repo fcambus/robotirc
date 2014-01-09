@@ -14,6 +14,7 @@
 /*****************************************************************************/
 
 var fs = require('fs');
+var path = require('path');
 var log = require('npmlog');
 var robotirc = require('../lib/robotirc');
 
@@ -21,7 +22,7 @@ var config = require("../config.json");
 
 log.info("", "RobotIRC is running. Press Ctrl+C to stop");
 
-fs.readFile(process.env.HOME + '/.robotirc', function(error, data) {
+fs.readFile(path.resolve('~/.robotirc'), function(error, data) {
     if (!error) {
         config = JSON.parse(data);
     } else {
