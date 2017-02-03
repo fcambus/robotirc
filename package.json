@@ -1,39 +1,40 @@
 {
-    "name": "robotirc",
-    "version": "0.1.2",
-    "description": "Multifonction IRC bot written in Node",
-    "main": "index.js",
-    "preferGlobal": "true",
-    "bin": {
-        "robotirc": "./bin/robotirc"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fcambus/robotirc"
-    },
-    "keywords": [
-        "irc",
-        "bot",
-        "dns",
-        "geoip",
-        "headers",
-        "wikipedia"
-    ],
-    "author": {
-        "name": "Frederic Cambus",
-        "url": "http://www.cambus.net"
-    },
-    "licenses": [{
-        "type": "BSD",
-        "url": "https://github.com/fcambus/robotirc/blob/master/LICENSE"
-    }],
-    "bugs": {
-        "url": "https://github.com/fcambus/robotirc/issues"
-    },
-    "dependencies": {
-        "irc": "^0.3.11",
-        "request": "^2.55.0",
-        "alexarank": "^0.1.1",
-        "npmlog": "^1.2.0"
+  "name": "robotirc",
+  "version": "0.1.2",
+  "description": "Multifonction IRC bot written in Node.js",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "robotirc": "./bin/robotirc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fcambus/robotirc"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "dns",
+    "headers",
+    "wikipedia"
+  ],
+  "author": {
+    "name": "Frederic Cambus",
+    "url": "https://www.cambus.net"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/fcambus/robotirc/blob/master/LICENSE"
     }
+  ],
+  "bugs": {
+    "url": "https://github.com/fcambus/robotirc/issues"
+  },
+  "dependencies": {
+    "alexarank": "^0.2.0",
+    "irc": "^0.5.2",
+    "npmlog": "^4.0.2",
+    "request": "^2.79.0"
+  }
 }
