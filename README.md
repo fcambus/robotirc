@@ -6,7 +6,7 @@ Multifonction IRC bot written in Node.js.
 
 ## Installation
 
-Install the program :
+Install the program:
 
 	npm install -g robotirc
 
@@ -18,7 +18,7 @@ Start RobotIRC by invoking `robotirc`.
 
 Configuration options are set in the `~/.robotirc` file. If RobotIRC cannot find an user defined configuration file in the home directory, the bundled `config.json` if used instead.
 
-Example configuration with default options :
+Example configuration with default options:
 
 	{
 	    "server": "irc.freenode.net",
@@ -37,7 +37,7 @@ Example configuration with default options :
 
 ## Commands
 
-RobotIRC supports the following commands :
+RobotIRC supports the following commands:
 
 - !alexa (Get Alexa traffic rank for a domain or URL)
 - !date (Display server local time)
@@ -53,7 +53,7 @@ A list of available functions can be displayed by using the `!help` command.
 ## Examples
 
 	<fcambus> !alexa echojs.com
-	<robotirc> Alexa Traffic Rank for echojs.com : 267098
+	<robotirc> Alexa Traffic Rank for echojs.com: 267098
 
 	<fcambus> !date
 	<robotirc> Fri Jan 03 2014 01:02:39 GMT+0100 (CET)
@@ -104,7 +104,7 @@ RobotIRC is released under the BSD 2-Clause license. See `LICENSE` file for deta
 
 ## Author
 
-RobotIRC is developed by Frederic Cambus
+RobotIRC is developed by Frederic Cambus.
 
 - Site: https://www.cambus.net
 - Twitter: https://twitter.com/fcambus
