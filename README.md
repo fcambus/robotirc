@@ -42,7 +42,6 @@ RobotIRC supports the following commands:
 - !alexa (Get Alexa traffic rank for a domain or URL)
 - !date (Display server local time)
 - !expand (Expand a shortened URL)
-- !geoip (IP address Geolocation)
 - !headers (Display HTTP headers for queried URL)
 - !resolve (Get A records (IPv4) and AAAA records (IPv6) for queried domain)
 - !reverse (Get reverse (PTR) records from IPv4 or IPv6 addresses)
@@ -60,19 +59,6 @@ A list of available functions can be displayed by using the `!help` command.
 
 	<fcambus> !expand http://bit.ly/1g4jD0H
 	<robotirc> http://www.echojs.com/
-
-	<fcambus_> !geoip 77.88.8.8
-	<robotirc> country: Russian Federation
-	<robotirc> dma_code: 0
-	<robotirc> area_code: 0
-	<robotirc> ip: 77.88.8.8
-	<robotirc> asn: AS13238
-	<robotirc> continent_code: EU
-	<robotirc> isp: Yandex LLC
-	<robotirc> longitude: 100
-	<robotirc> latitude: 60
-	<robotirc> country_code: RU
-	<robotirc> country_code3: RUS
 
 	<fcambus> !headers http://www.echojs.com
 	<robotirc> server: nginx
